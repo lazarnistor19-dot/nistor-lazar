@@ -15,29 +15,64 @@
   <body>
     <div class="page">
       <header class="site-header">
-        <div class="logo">StiriMoldova</div>
-        <nav class="main-nav">
-          <a href="#">Acasa</a>
-          <a href="#">Politica</a>
-          <a href="#">Economie</a>
-          <a href="#">Social</a>
-          <a href="#">Externe</a>
-          <a href="#">Sport</a>
-        </nav>
-        <button class="cta">Aboneaza-te</button>
+        <div class="logo-group">
+          <div class="logo">StiriMoldova</div>
+          <span class="tagline">Portal national de stiri si analize</span>
+        </div>
+        <div class="header-actions">
+          <div class="search">
+            <input type="search" placeholder="Cauta subiecte, institutii, persoane" />
+            <button type="button">Cauta</button>
+          </div>
+          <button class="cta">Aboneaza-te</button>
+        </div>
       </header>
 
+      <nav class="main-nav">
+        <a href="#">Acasa</a>
+        <a href="#">Politica</a>
+        <a href="#">Economie</a>
+        <a href="#">Social</a>
+        <a href="#">Justitie</a>
+        <a href="#">Externe</a>
+        <a href="#">Tehnologie</a>
+        <a href="#">Sport</a>
+      </nav>
+
+      <section class="breaking">
+        <span class="breaking-label">Breaking</span>
+        <div class="breaking-items">
+          <span>Parlamentul voteaza pachetul de sprijin pentru agricultori.</span>
+          <span>Premierul anunta negocieri pentru un nou acord energetic regional.</span>
+          <span>Serviciul meteorologic emite cod galben de canicula.</span>
+        </div>
+      </section>
+
       <section class="hero">
-        <div class="hero-content">
-          <span class="badge">Ultimele 24 de ore</span>
-          <h1>Actualitati rapide si verificate despre Moldova</h1>
-          <p>
-            Portalul tau zilnic de stiri: analize, investigatii si explicatii clare
-            despre ce se intampla in tara si in regiune.
-          </p>
-          <div class="hero-actions">
-            <button class="primary">Vezi stiri de ultima ora</button>
-            <button class="ghost">Trimite o sesizare</button>
+        <div class="hero-primary">
+          <div class="hero-content">
+            <span class="badge">Ultimele 24 de ore</span>
+            <h1>Actualitati rapide si verificate despre Moldova</h1>
+            <p>
+              Portalul tau zilnic de stiri: analize, investigatii si explicatii clare
+              despre ce se intampla in tara si in regiune.
+            </p>
+            <div class="hero-actions">
+              <button class="primary">Vezi stiri de ultima ora</button>
+              <button class="ghost">Trimite o sesizare</button>
+            </div>
+          </div>
+          <div class="hero-side">
+            <article class="hero-side-card">
+              <span class="label">Interviu</span>
+              <h3>Primarii din sud cer investitii urgente in infrastructura</h3>
+              <p>Discutam cu liderii locali despre solutii rapide si finantare.</p>
+            </article>
+            <article class="hero-side-card">
+              <span class="label">Analiza</span>
+              <h3>Ce inseamna noua strategie energetica pentru consumatori</h3>
+              <p>Expert: preturile pot fi stabilizate prin achizitii comune.</p>
+            </article>
           </div>
         </div>
         <div class="hero-card">
@@ -55,7 +90,21 @@
               <span>Temperatura Chisinau</span>
               <strong>24°C</strong>
             </li>
+            <li>
+              <span>Trafic Chisinau</span>
+              <strong>Moderat</strong>
+            </li>
           </ul>
+          <div class="hero-kpi">
+            <div>
+              <small>Indice incredere</small>
+              <strong>71%</strong>
+            </div>
+            <div>
+              <small>Actualizat</small>
+              <strong>10:15</strong>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -95,10 +144,37 @@
               <p>Echipa nationala anunta lotul extins si obiectivele campaniei.</p>
               <span>Sport</span>
             </article>
+            <article>
+              <h4>Tehnologie: startup-urile EdTech cresc in Chisinau</h4>
+              <p>Investitorii locali sustin solutii digitale pentru educatie.</p>
+              <span>Tehnologie</span>
+            </article>
+            <article>
+              <h4>Justitie: reforma instantei cu calendar public</h4>
+              <p>Ministerul anunta termene ferme pentru transparentizare.</p>
+              <span>Justitie</span>
+            </article>
           </div>
         </section>
 
         <aside class="sidebar">
+          <div class="sidebar-card highlight">
+            <h3>Agenda zilei</h3>
+            <ul class="agenda">
+              <li>
+                <strong>11:00</strong>
+                <span>Conferinta despre securitatea regionala</span>
+              </li>
+              <li>
+                <strong>14:30</strong>
+                <span>Raport BNM despre stabilitatea financiara</span>
+              </li>
+              <li>
+                <strong>18:00</strong>
+                <span>Dezbateri publice despre bugetul municipal</span>
+              </li>
+            </ul>
+          </div>
           <div class="sidebar-card">
             <h3>Newsletter zilnic</h3>
             <p>Primeste un rezumat al celor mai importante stiri in fiecare dimineata.</p>
@@ -114,6 +190,13 @@
               <li>Portret: antreprenorii care investesc in sate smart</li>
               <li>Agenda culturala pentru weekend in Chisinau</li>
             </ol>
+          </div>
+          <div class="sidebar-card media">
+            <h3>Video zilei</h3>
+            <div class="video-placeholder">
+              <span>Live</span>
+              <p>Interviu cu ministrul economiei despre investitii</p>
+            </div>
           </div>
         </aside>
       </main>
@@ -133,6 +216,77 @@
             <span class="time">07:10</span>
             <p>Ministerul Sanatatii lanseaza o campanie de informare despre vaccinare.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="sections-grid">
+        <article class="category-card">
+          <h3>Investigatii</h3>
+          <p>Dosare, informatii verificate si context extins.</p>
+          <ul>
+            <li>Ruta banilor publici in proiecte regionale</li>
+            <li>Monitorizarea promisiunilor electorale</li>
+          </ul>
+        </article>
+        <article class="category-card">
+          <h3>Externe</h3>
+          <p>Stiri din regiune si din UE, explicate pe intelesul tuturor.</p>
+          <ul>
+            <li>Summit-uri si politici comune</li>
+            <li>Evolutii in Ucraina si Romania</li>
+          </ul>
+        </article>
+        <article class="category-card">
+          <h3>Cultura</h3>
+          <p>Evenimente, festivaluri si agenda civica.</p>
+          <ul>
+            <li>Weekend cultural in Chisinau</li>
+            <li>Recomandari de lectura</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="workflow">
+        <div class="workflow-header">
+          <h2>Flux editorial asistat de AI</h2>
+          <p>
+            Colectam stiri de pe platforme din Moldova, le verificam si le reformulam
+            cu ajutorul unui asistent AI pentru publicare rapida.
+          </p>
+        </div>
+        <div class="workflow-steps">
+          <article>
+            <span>1</span>
+            <h4>Import automat</h4>
+            <p>Agregam stiri din RSS si surse partenere locale.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h4>Verificare & fact-check</h4>
+            <p>Editorii valideaza sursele si contextul.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h4>Reformulare cu AI</h4>
+            <p>Asistentul AI rescrie pe intelesul publicului, pastrand sensul.</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h4>Publicare multicanal</h4>
+            <p>Stirile apar pe web, newsletter si social media.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="partner-sources">
+        <h2>Surse si platforme integrate</h2>
+        <div class="source-grid">
+          <div>RSS institutiile publice</div>
+          <div>Agentii de presa locale</div>
+          <div>Portaluri regionale</div>
+          <div>Statistici oficiale</div>
+          <div>Expertiza ONG</div>
+          <div>Monitorizare social media</div>
         </div>
       </section>
 
